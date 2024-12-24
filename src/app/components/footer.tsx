@@ -1,6 +1,13 @@
 export default function Footer() {
     return (
-        <div>
-        </div>
+      <div>
+        <footer className="footer items-center p-6 bg-neutral text-neutral-content">
+          <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <span className="text-lg font-semibold">© 2024 TOBYKILLEN.COM</span>
+            <span className="text-sm">All rights reserved.</span>
+          </div>
+        </footer>
+      </div>
     );
-}
+  }
+  

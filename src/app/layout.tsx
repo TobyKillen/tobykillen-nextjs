@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Toby Killen"
+  title: "Toby Killen",
+  icons: {
+    icon: "/me_1.jpg",
+  }
 };
 
 export default function RootLayout({
