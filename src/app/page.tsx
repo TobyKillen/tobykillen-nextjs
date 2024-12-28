@@ -12,22 +12,20 @@ export default function Portfolio() {
         <div className="flex flex-col items-center">
           {/* Profile Image */}
           <div className="avatar mb-6">
-            <div className="w-128 rounded-full">
+            <div className="w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden ring-2 ring-primary ring-offset-base-100">
               <Image
                 src={Myself}
                 alt="Profile Avatar"
-                placeholder="blur"
                 width={300}
                 height={300}
                 className="rounded-full"
+                priority // Ensures the image loads immediately
               />
             </div>
           </div>
-          <h1 className="mb-5 text-5xl font-bold uppercase text-white">Toby Killen</h1>
-          <p className="mb-5 text-lg text-center uppercase border-l font-black text-white">
+          <h1 className="mb-5 text-3xl md:text-5xl font-bold uppercase text-white">Toby Killen</h1>
+          <p className="mb-5 text-base md:text-lg text-center uppercase font-black text-white">
             Software Engineer. Belfast, UK
-
-
           </p>
           <div className="flex justify-center gap-4 mb-5">
             <Link
