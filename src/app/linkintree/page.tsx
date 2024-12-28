@@ -11,7 +11,7 @@ export default function Linkintree() {
         {/* Avatar Section */}
         <div className="flex flex-col items-center mt-8">
           <div className="avatar">
-            <div className="w-24 rounded-full ring ring-offset-base-100 ring-offset-2">
+            <div className="w-48 rounded-full ring-offset-base-100 ring-offset-2">
               <Image
                 src={Myself}
                 alt="Profile Avatar"
@@ -28,16 +28,16 @@ export default function Linkintree() {
 
         {/* Link Buttons */}
         <div className="mt-8 w-full max-w-md space-y-4">
-          <Link href="/" className="btn btn-primary w-full">
+          <Link href="/" className="btn btn-netural w-full">
             Home
           </Link>
 {/* 
-          <Link href="/contact" className="btn btn-primary w-full">
+          <Link href="/contact" className="btn btn-netural w-full">
             Contact
           </Link> */}
           <Link
             href="https://www.github.com/tobykillen"
-            className="btn btn-primary w-full"
+            className="btn btn-netural w-full"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,7 +45,7 @@ export default function Linkintree() {
           </Link>
           <Link
             href="https://www.linkedin.com/in/tobykillen"
-            className="btn btn-primary w-full"
+            className="btn btn-netural w-full"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,7 +53,7 @@ export default function Linkintree() {
           </Link>
           <a
             href="https://clubculture.app"
-            className="btn btn-primary w-full"
+            className="btn btn-netural w-full"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -61,7 +61,7 @@ export default function Linkintree() {
           </a>
           <a
             href="https://attaboybelfast.com"
-            className="btn btn-primary w-full"
+            className="btn btn-netural w-full"
             target="_blank"
             rel="noopener noreferrer"
           >

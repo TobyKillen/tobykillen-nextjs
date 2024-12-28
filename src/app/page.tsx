@@ -12,7 +12,7 @@ export default function Portfolio() {
         <div className="flex flex-col items-center">
           {/* Profile Image */}
           <div className="avatar mb-6">
-            <div className="w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden ring-2 ring-primary ring-offset-base-100">
+            <div className="w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden ring-offset-base-100">
               <Image
                 src={Myself}
                 alt="Profile Avatar"
@@ -31,14 +31,14 @@ export default function Portfolio() {
             <Link
               href="https://github.com/tobykillen"
               target="_blank"
-              className="btn btn-primary"
+              className="btn btn-neutral"
             >
               GitHub
             </Link>
             <Link
               href="https://www.linkedin.com/in/tobykillen"
               target="_blank"
-              className="btn btn-primary"
+              className="btn btn-neutral"
             >
               LinkedIn
             </Link>
