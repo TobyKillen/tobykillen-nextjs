@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Myself from "./../../public/me_1.jpg";
-import BackgroundImage from "./../../public/background.jpeg";
 import Background from "./components/background";
+import BackgroundImage from './../../public/background.jpg';
 
 export default function Portfolio() {
   return (
@@ -23,8 +23,8 @@ export default function Portfolio() {
               />
             </div>
           </div>
-          <h1 className="mb-5 text-5xl font-bold uppercase">Toby Killen</h1>
-          <p className="mb-5 max-w-xl text-center text-lg">
+          <h1 className="mb-5 text-5xl font-bold uppercase text-white">Toby Killen</h1>
+          <p className="mb-5 text-lg text-center uppercase border-l font-black text-white">
             Software Engineer. Belfast, UK
 
 
