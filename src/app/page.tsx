@@ -29,19 +29,17 @@ export default function Portfolio() {
           </p>
           <div className="flex justify-center gap-4 mb-5">
             <Link
-              href="https://github.com/tobykillen"
-              target="_blank"
-              className="btn btn-neutral"
+              href="/linkintree"
+              className="btn btn-neutral w-full"
             >
-              GitHub
+              Links
             </Link>
-            <Link
-              href="https://www.linkedin.com/in/tobykillen"
-              target="_blank"
-              className="btn btn-neutral"
+            {/* <Link
+              href="/contact"
+              className="btn btn-neutral w-full"
             >
-              LinkedIn
-            </Link>
+              Contact
+            </Link> */}
           </div>
         </div>
       </Background>
