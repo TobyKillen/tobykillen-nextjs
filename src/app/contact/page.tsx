@@ -1,7 +1,4 @@
 'use client';
-import Link from "next/link";
-import Image from "next/image";
-import Myself from "./../../public/me_1.jpg";
 import Background from "../components/background";
 import BackgroundImage from './../../../public/background.jpg';
 import { useState } from "react";
