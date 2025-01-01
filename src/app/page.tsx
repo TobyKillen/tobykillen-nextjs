@@ -30,16 +30,11 @@ export default function Portfolio() {
           <div className="flex justify-center gap-4 mb-5">
             <Link
               href="/linkintree"
-              className="btn btn-neutral w-full"
+              className="btn btn-netural w-full"
+              rel="noopener noreferrer"
             >
               Links
             </Link>
-            {/* <Link
-              href="/contact"
-              className="btn btn-neutral w-full"
-            >
-              Contact
-            </Link> */}
           </div>
         </div>
       </Background>
