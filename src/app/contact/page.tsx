@@ -1,6 +1,6 @@
 'use client';
 import Background from "../components/background";
-import BackgroundImage from './../../../public/background.jpg';
+import BackgroundImage from './../../../public/background1.jpeg';
 import { useState } from "react";
 
 export default function Contact() {

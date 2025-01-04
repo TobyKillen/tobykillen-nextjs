@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Myself from "./../../../public/me_1.jpg";
 import Background from "./../../app/components/background";
-import BackgroundImage from './../../../public/background.jpg';
+import BackgroundImage from './../../../public/background1.jpeg';
 
 export default function Linkintree() {
   return (
@@ -23,7 +23,7 @@ export default function Linkintree() {
             </div>
           </div>
           <h1 className="text-2xl font-bold mt-4 text-white">Toby Killen</h1>
-          <p className="text-sm text-gray-600 ">@itoby24</p>
+          <p className="text-sm text-white ">@itoby24</p>
         </div>
 
         {/* Link Buttons */}

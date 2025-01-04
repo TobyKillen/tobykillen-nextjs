@@ -19,7 +19,7 @@ export default function Background({ src, children }: BackgroundProps) {
         backgroundPosition: 'center',
       }}
     >
-      <div className="hero-overlay bg-opacity-0"></div>
+      <div className="hero-overlay bg-opacity-75"></div>
       <div className="hero-content text-neutral-content">
         {children}
       </div>
