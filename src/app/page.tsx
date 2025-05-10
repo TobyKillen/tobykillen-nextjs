@@ -1,43 +1,40 @@
-import Link from "next/link";
 import Image from "next/image";
-import Myself from "./../../public/me_1.jpg";
-import Background from "./components/background";
-import BackgroundImage from './../../public/background1.jpeg';
+import BackgroundImage from "./../../public/background1.jpeg";
+import Myself from "./../../public/me_2.jpg";
 
-export default function Portfolio() {
+export default function Home() {
   return (
-    <div>
-      {/* Hero Section */}
-      <Background src={BackgroundImage}>
-        <div className="flex flex-col items-center">
-          {/* Profile Image */}
-          <div className="avatar mb-6">
-            <div className="w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden ring-offset-base-100">
-              <Image
-                src={Myself}
-                alt="Profile Avatar"
-                width={300}
-                height={300}
-                className="rounded-full"
-                priority // Ensures the image loads immediately
-              />
-            </div>
+    <main className="relative min-h-screen w-full">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src={BackgroundImage}
+          alt="Background"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 flex items-center justify-center min-h-screen bg-black/60 px-4">
+        <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl text-center p-6 sm:p-10 backdrop-blur-md bg-white/10 shadow-lg rounded-2xl">
+          <div className="mx-auto mb-6 w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44 rounded-full overflow-hidden">
+            <Image
+              src={Myself}
+              alt="Toby Killen"
+              width={176} // size hint for performance, not style
+              height={176}
+              className="object-cover w-full h-full"
+              priority
+            />
           </div>
-          <h1 className="mb-5 text-3xl md:text-5xl font-bold uppercase text-white">Toby Killen</h1>
-          <p className="mb-5 text-base md:text-lg text-center uppercase font-black text-white">
-            Software Engineer. Belfast, UK
+          <h1 className="text-xl sm:text-2xl md:text-5xl font-extrabold text-white uppercase italic">Toby Killen</h1>
+          <p className="mt-2 text-sm sm:text-base text-gray-200 uppercase font-medium">
+            Software Engineer · Belfast, UK
           </p>
-          <div className="flex justify-center gap-4 mb-5">
-            <Link
-              href="/linkintree"
-              className="btn btn-netural w-full"
-              rel="noopener noreferrer"
-            >
-              Links
-            </Link>
-          </div>
         </div>
-      </Background>
-    </div>
+      </div>
+    </main>
   );
 }
