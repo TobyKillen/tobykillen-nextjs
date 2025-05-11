@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-20">
 
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
-          
+
           {/* Logo Section */}
           <div className="text-center md:text-left w-full md:w-auto">
             <Link href="/" className="block hover:opacity-80 transition-opacity">
@@ -14,7 +14,7 @@ export default function Footer() {
                 Toby Killen
               </h2>
             </Link>
-            <p className="text-sm text-[#999999] mt-2">Experienced Software Engineer based in Belfast, Northern Ireland.</p>
+            <p className="text-sm text-[#999999] mt-2">Software engineer based in <strong>Belfast, Northern Ireland</strong>, with a personal interest in security.</p>
           </div>
 
           {/* Links Section */}
